@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | MyScholarshipMap</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <style>
+        /* Inline styles to ensure changes are visible */
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #3498db;
+            --light-color: #f8f9fa;
+            --dark-color: #1a252f;
+            --gray-color: #7f8c8d;
+            --success-color: #27ae60;
+            --warning-color: #f39c12;
+            --info-color: #2980b9;
+            --border-color: #e9ecef;
+            --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.8;
+            letter-spacing: 0.3px;
+            background-color: #f8fafc;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Montserrat', sans-serif;
+            letter-spacing: -0.5px;
+        }
+        
+        .page-header {
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+            padding: 4rem 0;
+        }
+        
+        .about-section {
+            margin-bottom: 5rem;
+        }
+        
+        .about-illustration {
+            background-color: rgba(44, 62, 80, 0.08);
+        }
+        
+        .cta-section {
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-graduation-cap"></i> MyScholarshipMap
+            </a>
+            <div class="nav-links">
+                <a href="index.html"><i class="fas fa-home"></i> Home</a>
+                <a href="scholarships.html"><i class="fas fa-list-ul"></i> All Scholarships</a>
+                <a href="resources.html"><i class="fas fa-book"></i> Resources</a>
+                <a href="about.html" class="active"><i class="fas fa-info-circle"></i> About</a>
+            </div>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <div class="mobile-menu">
+        <a href="index.html"><i class="fas fa-home"></i> Home</a>
+        <a href="scholarships.html"><i class="fas fa-list-ul"></i> All Scholarships</a>
+        <a href="resources.html"><i class="fas fa-book"></i> Resources</a>
+        <a href="about.html" class="active"><i class="fas fa-info-circle"></i> About</a>
+    </div>
+
+    <div class="container">
+        <header class="page-header">
+            <h1><i class="fas fa-info-circle"></i> About MyScholarshipMap</h1>
+            <p>Learn about our mission to make education accessible to all Indian students</p>
+        </header>
+
+        <main>
+            <section class="about-section">
+                <div class="about-content">
+                    <h2>Our Mission</h2>
+                    <p>MyScholarshipMap was created with a simple mission: to help Indian students find and apply for scholarships that match their unique profiles.</p>
+                    <p>We believe that financial constraints should never prevent talented students from pursuing their educational dreams. By providing a comprehensive database of scholarships and resources, we aim to bridge the gap between students and financial support opportunities.</p>
+                    <p>Our platform is designed to simplify the scholarship search process by allowing students to filter opportunities based on their gender, caste, income level, and state of residence. This personalized approach ensures that students only see scholarships for which they are eligible, saving them time and increasing their chances of success.</p>
+                </div>
+                <div class="about-image">
+                    <div class="about-illustration">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="cta-section">
+                <div class="cta-content">
+                    <h2>Have Suggestions or Feedback?</h2>
+                    <p>We're constantly working to improve MyScholarshipMap. If you have suggestions, feedback, or know of scholarships we should add, we'd love to hear from you!</p>
+                    <a href="#" class="cta-btn">Contact Us <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-graduation-cap"></i> MyScholarshipMap</h3>
+                    <p>Helping students find financial support for education across India.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="scholarships.html">All Scholarships</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-envelope"></i> info@myscholarshipmap.com</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>MyScholarshipMap &copy; <span id="year"></span> | All Rights Reserved</p>
+                <p class="disclaimer">Disclaimer: This website provides information about scholarships for reference purposes only. Please verify all details with the official scholarship providers.</p>
+            </div>
+        </footer>
+    </div>
+
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/scholarships.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

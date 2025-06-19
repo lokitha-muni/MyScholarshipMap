@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources | MyScholarshipMap</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <style>
+        /* Inline styles to ensure changes are visible */
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #3498db;
+            --light-color: #f8f9fa;
+            --dark-color: #1a252f;
+            --gray-color: #7f8c8d;
+            --success-color: #27ae60;
+            --warning-color: #f39c12;
+            --info-color: #2980b9;
+            --border-color: #e9ecef;
+            --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.8;
+            letter-spacing: 0.3px;
+            background-color: #f8fafc;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Montserrat', sans-serif;
+            letter-spacing: -0.5px;
+        }
+        
+        .page-header {
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+            padding: 4rem 0;
+        }
+        
+        .resource-card {
+            border-radius: 16px;
+        }
+        
+        .resource-card:hover {
+            transform: translateY(-8px);
+        }
+        
+        .resource-icon {
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+        }
+        
+        .resource-content h3 {
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+        
+        .resource-link {
+            color: #3498db;
+            font-weight: 600;
+        }
+        
+        .cta-section {
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-graduation-cap"></i> MyScholarshipMap
+            </a>
+            <div class="nav-links">
+                <a href="index.html"><i class="fas fa-home"></i> Home</a>
+                <a href="scholarships.html"><i class="fas fa-list-ul"></i> All Scholarships</a>
+                <a href="resources.html" class="active"><i class="fas fa-book"></i> Resources</a>
+                <a href="about.html"><i class="fas fa-info-circle"></i> About</a>
+            </div>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <div class="mobile-menu">
+        <a href="index.html"><i class="fas fa-home"></i> Home</a>
+        <a href="scholarships.html"><i class="fas fa-list-ul"></i> All Scholarships</a>
+        <a href="resources.html" class="active"><i class="fas fa-book"></i> Resources</a>
+        <a href="about.html"><i class="fas fa-info-circle"></i> About</a>
+    </div>
+
+    <div class="container">
+        <header class="page-header">
+            <h1><i class="fas fa-book"></i> Scholarship Resources</h1>
+            <p>Helpful guides and resources to help you apply for and win scholarships</p>
+        </header>
+
+        <main>
+            <section class="resource-grid">
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-pencil-alt"></i>
+                    </div>
+                    <div class="resource-content">
+                        <h3>Writing a Winning Scholarship Essay</h3>
+                        <p>Learn how to craft compelling scholarship essays that stand out from the competition and showcase your strengths.</p>
+                        <a href="#" class="resource-link">Read Guide <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="resource-content">
+                        <h3>Essential Documents Checklist</h3>
+                        <p>A comprehensive checklist of all the documents you'll need to prepare for different types of scholarship applications.</p>
+                        <a href="#" class="resource-link">Download Checklist <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <div class="resource-content">
+                        <h3>Scholarship Application Timeline</h3>
+                        <p>Stay organized with this month-by-month timeline of when to apply for scholarships throughout the academic year.</p>
+                        <a href="#" class="resource-link">View Timeline <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <div class="resource-content">
+                        <h3>Interview Preparation Guide</h3>
+                        <p>Tips and strategies to help you prepare for scholarship interviews, including common questions and best practices.</p>
+                        <a href="#" class="resource-link">Read Guide <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="resource-content">
+                        <h3>Income & Caste Certificate Guide</h3>
+                        <p>Step-by-step instructions on how to obtain income certificates and caste certificates required for scholarship applications.</p>
+                        <a href="#" class="resource-link">Read Guide <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <div class="resource-content">
+                        <h3>Frequently Asked Questions</h3>
+                        <p>Answers to common questions about scholarship applications, eligibility criteria, and the selection process.</p>
+                        <a href="#" class="resource-link">View FAQs <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="cta-section">
+                <div class="cta-content">
+                    <h2>Need Personalized Guidance?</h2>
+                    <p>Our team can help you identify the best scholarships for your profile and guide you through the application process.</p>
+                    <a href="#" class="cta-btn">Contact Us <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-graduation-cap"></i> MyScholarshipMap</h3>
+                    <p>Helping students find financial support for education across India.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="scholarships.html">All Scholarships</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-envelope"></i> info@myscholarshipmap.com</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>MyScholarshipMap &copy; <span id="year"></span> | All Rights Reserved</p>
+                <p class="disclaimer">Disclaimer: This website provides information about scholarships for reference purposes only. Please verify all details with the official scholarship providers.</p>
+            </div>
+        </footer>
+    </div>
+
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/scholarships.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
